@@ -20,79 +20,44 @@ Welcome to AiiDA's documentation!
 .. _AiiDA: http://www.aiida.net
 
 
-************
-Features
-************
+.. toctree::
+   :maxdepth: 2
+   :caption: Getting Started
 
- * **Workflows:** Write complex, auto-documenting workflows in python, linked to arbitrary executables on local and remote computers. The event-based workflow engine supports tens of thousands of processes per hour with full checkpointing.
- * **Data provenance:** Automatically track inputs, outpus & metadata of all calculations in a provenance graph for full reproducibility. Perform fast queries on graphs containing millions of nodes.
- * **HPC interface:** Move your calculations to a different computer by changing one line of code. AiiDA is compatible with schedulers like `SLURM <https://slurm.schedmd.com>`_, `PBS Pro <https://www.pbspro.org/>`_, `torque <http://www.adaptivecomputing.com/products/torque/>`_, `SGE <http://gridscheduler.sourceforge.net/>`_ or `LSF <https://www.ibm.com/support/knowledgecenter/SSETD4/product_welcome_platform_lsf.html>`_ out of the box.
- * **Plugin interface:** Extend AiiDA with `plugins <https://aiidateam.github.io/aiida-registry/>`_ for new simulation codes (input generation & parsing), data types, schedulers, transport modes and more.
- * **Open Science:** Export subsets of your provenance graph and share them with peers or make them available online for everyone on the `Materials Cloud <https://www.materialscloud.org>`_.
- * **Open source:** AiiDA is released under the `MIT open source license <https://github.com/aiidateam/aiida-core/blob/develop/LICENSE.txt>`_.
-
-See also the `AiiDA home page`_.
-
-.. _AiiDA home page: http://www.aiida.net
-
-***************
-Getting started
-***************
-
- * The `AiiDA tutorials <https://aiida-tutorials.readthedocs.io/en/latest/>`_ are a good place to get started with using AiiDA.
- * Afterwards, you might want to :ref:`install AiiDA<installation>` on your machine.
- * For setting up a production environment, you may find the :ref:`configuration <configure_aiida>` section helpful.
- * For the advanced, there is the complete :doc:`AiiDA API reference<apidoc/aiida>` (including a :ref:`modindex`), and of course you can always peek into the code on the `AiiDA git repository <https://github.com/aiidateam/aiida-core>`_.
-
-**************
-For developers
-**************
-
- * If you wish to start developing a plugin for AiiDA the :ref:`plugin_development` section is a good place to start.
- * Practical information concerning how to set up your development environment and how to contribute to aiida core can be found on the `AiiDA Wiki <https://github.com/aiidateam/aiida-core/wiki>`_.
- * You are also more than welcome to join the `AiiDA mailing list <http://www.aiida.net/mailing-list/>`_ or contribute to aiida-core on `GitHub <https://github.com/aiidateam/aiida-core>`_.
+   intro/about
+   intro/installation
+   intro/quickstart
 
 .. toctree::
-    :maxdepth: 1
-    :caption: Installation
-    :hidden:
+   :maxdepth: 2
+   :caption: Tutorial
 
-    install/quick_installation
-    install/prerequisites
-    install/installation
-    install/configuration
-    install/updating_installation
-    install/troubleshooting
+   tutorial/placeholder
 
 .. toctree::
-    :maxdepth: 1
-    :caption: Working with AiiDA
-    :hidden:
+   :maxdepth: 2
+   :caption: How-To Guides
 
-    working_with_aiida/index
-
-.. toctree::
-    :maxdepth: 1
-    :caption: Reference Guide
-    :hidden:
-
-    reference/index
+   howto/placeholder
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
+   :caption: Topics
+
+   topics/placeholder
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Plugins
+
+   plugins/placeholder
+
+.. toctree::
+   :maxdepth: 2
    :caption: Development
-   :hidden:
 
-   developer_guide/plugins
-   developer_guide/core
+   development/placeholder
 
-.. toctree::
-    :maxdepth: 1
-    :caption: API reference
-    :hidden:
-
-    apidoc/aiida
-    restapi/index
 
 ***********
 How to cite
